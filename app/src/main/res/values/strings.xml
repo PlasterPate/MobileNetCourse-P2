@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MobileNetAssignment2</string>
+    <string name="movahed_name">Alimohammad Movahedian</string>
+    <string name="movahed_student_number">96521497</string>
+    <string name="movahed_image">https://s4.uupload.ir/files/movahed_pro2_23eg.png</string>
+    <string name="pooya_name">Pooya Kabiri</string>
+    <string name="pooya_student_number">96521434</string>
+    <string name="pooya_image">https://s4.uupload.ir/files/pooya_pro_x2dg.png</string>
+    <string name="info_description">Mobile Networks Course\nDr.Abolfazl Dianat\nSpring 2021</string>
+    <string name="creators">Creators</string>
+    <string name="born">Born:</string>
+    <string name="died">Died:</string>
+    <string name="birth_place">Birth Place:</string>
+    <string name="best_artists">Best Artists of All Time</string>
+    <string name="still_alive">Still Alive</string>
+    <string name="from">"From "</string>
+    <string name="to">" to "</string>
+    <string name="now">now</string>
+</resources>

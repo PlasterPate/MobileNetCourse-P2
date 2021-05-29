@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mobilenetassignment2.ui.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.mobilenetassignment2.ui.details.DetailsFragment"
+        android:label="details_fragment"
+        tools:layout="@layout/details_fragment">
+        <argument
+            android:name="id"
+            app:argType="integer"/>
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.mobilenetassignment2.ui.info.InfoFragment"
+        android:label="InfoFragment"
+        tools:layout="@layout/info_fragment"/>
+</navigation>
